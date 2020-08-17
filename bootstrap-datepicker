@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap datepicker</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap datepicker ======================================= -->
+   	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"/>
+   	
+</head>
+<body>
+
+
+	<p>Date1: <input type="text" id="datepicker1"></p>
+	<p>Date2: <input type="text" id="datepicker2"></p>
+
+
+	<!-- / Bootstrap datepicker ======================================= -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript">
+    	$('#datepicker1, #datepicker2').datepicker({
+		    autoclose: true,
+		    toggleActive: true,
+		    format: 'dd.mm.yyyy'
+		});
+    </script>
+
+</body>
+</html>
